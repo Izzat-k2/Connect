@@ -1,2 +1,2 @@
 # Connect
-a Demo of a communication company 
+Communication Company Website Demo
