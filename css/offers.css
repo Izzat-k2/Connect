@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:  Tahoma;
+    background-size: 2000px;
+    background-color: #FFE4A8;
+    font-size: larger;
+  }
+  
+  header {
+    margin: 0;
+    padding: 0;
+    background-color: #FFE4A8;
+  }
+  
+  nav {
+    margin: 0;
+    background: #009AB5;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 1%;
+    
+  }
+  
+  nav li a {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 10px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+  }
+  
+  nav li a:hover {
+    background-color: #faab3d;
+
+    
+  }
+  
+  .section {
+    margin-bottom: 60px;
+  }
+  
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  button {
+    background-color: #faab3d;
+    width: 20%;
+  }
+  
+  main {
+    
+    margin: 20px;
+    padding: 0;
+  }
+  
+  p {
+    text-align: center;
+    color: #1b696d;
+    font-style: italic;
+    font-size: large;
+    line-height: 1.6;
+  }
+  
+  h1{
+    color: #faab3d;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-style: italic;
+  }
+  h2 {
+    
+    text-align: center;
+  
+    color: #ff6600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  h3{
+    color: #d0872a;
+  }
+  
+  span {
+    color: #009ab5;
+  }
+  
+  hr {
+    color: #0099ff;
+  }
+  
+  .logo {
+    margin: 0 0 0 2%;
+  }
+  
+  .contact-details {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contact-details li {
+    margin-bottom: 5px;
+  }
+  
+  .contact-details a {
+    color: #0099ff;
+    text-decoration: none;
+  }
+  .section  a {
+    color: #0099ff;
+  }
+  
+  input {
+    background-color: #FFE4A8;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  #mainimg {
+    width: 100%;
+  }
+  
+  #footer {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .skip-to-content-link {
+    position: absolute;
+    left: -999px; /* Move off-screen initially */
+    padding: 8px;
+    background-color: #ddd;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .skip-to-content-link:focus {
+    transform: translateX(0); /* Move link into view on focus */
+    left: 10px; /* Adjust left position as needed */
+  }
+  
+  
+  
+  
+  
+ 
+
+/* Center the Cont container */
+.Cont {
+  background-color: #FFE4A8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust as needed */
+  padding: 20px;
+}
+
+/* Ensure .row aligns cards horizontally */
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+  margin-bottom: 100px;
+}
+
+
+.product{
+   margin: 20px;
+   width: 20%;
+   height: 250px;
+    border: solid 4px #faab3d;
+    display: inline-block;
+}
+.product img{
+    width: auto;
+   height: 150px;
+   margin: 5% 20%;
+}
+
+details{
+	font-style: italic;
+}
+ul{
+list-style: circle;
+
+}
+
+
+/* Style for the product cards */
+.product {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  transition: border-radius 0.3s ease, box-shadow 0.3s ease;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Hover effect */
+.product:hover {
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: #007bff; /* Optional: blue border on hover */
+}
